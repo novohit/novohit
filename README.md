@@ -7,6 +7,6 @@
 
 ### 📈 GitHub Activity Graph:
 ![novo's github activity graph](https://raw.githubusercontent.com/novohit/novohit/output/github-contribution-grid-snake.svg)
-| .                                                            | .                                                            |
+|                                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![novo's github stats](https://github-readme-stats.vercel.app/api?username=novohit&show_icons=true&theme=radical&include_all_commits=true) | ![Quiec's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=novohit&theme=radical&layout=compact&hide=html) |
+| ![novo's github stats](https://raw.githubusercontent.com/novohit/novohit/output/novohit_stats.svg) | ![Quiec's github stats](https://raw.githubusercontent.com/novohit/novohit/output/novohit_top_langs.svg) |
