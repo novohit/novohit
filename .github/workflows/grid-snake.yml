@@ -36,6 +36,10 @@ jobs:
             cache-images/github-contribution-grid-snake.svg
             cache-images/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      # 下载 novohit 的 GitHub details 图片
+      - name: Download novohit's GitHub detail
+        run: wget "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=novohit&theme=radical" -O cache-images/novohit_detail.svg
+        
       # 下载 novohit 的 GitHub stats 图片
       - name: Download novohit's GitHub stats
         run: wget "https://github-readme-stats.vercel.app/api?username=novohit&show_icons=true&theme=radical&include_all_commits=true" -O cache-images/novohit_stats.svg
