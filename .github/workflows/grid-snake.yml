@@ -42,7 +42,7 @@ jobs:
 
       # 下载 novohit 的 top languages 图片
       - name: Download novohit's top languages
-        run: wget "https://github-readme-stats.vercel.app/api/top-langs/?username=novohit&theme=radical&layout=compact&hide=html" -O cache-images/novohit_top_langs.svg
+        run: wget "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=novohit&theme=radical" -O cache-images/novohit_top_langs.svg
 
       # 将下载的图片推送到指定的分支
       # push the content of <build_dir> to a branch
