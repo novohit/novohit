@@ -35,6 +35,8 @@ jobs:
           outputs: |
             cache-images/github-contribution-grid-snake.svg
             cache-images/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
 
       # 下载 novohit 的 GitHub details 图片
       - name: Download novohit's GitHub detail
