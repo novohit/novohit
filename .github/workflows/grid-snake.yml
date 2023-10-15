@@ -40,16 +40,16 @@ jobs:
 
       # 下载 novohit 的 GitHub details 图片
       - name: Download novohit's GitHub detail
-        run: wget "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=novohit&theme=radical" -O cache-images/novohit_detail.svg
+        run: wget "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=novohit" -O cache-images/novohit_detail.svg
         
       # 下载 novohit 的 GitHub stats 图片
       # api 变更 https://github.com/anuraghazra/github-readme-stats/issues/2388
       - name: Download novohit's GitHub stats
-        run: wget "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=novohit&show_icons=true&theme=radical&include_all_commits=true" -O cache-images/novohit_stats.svg
+        run: wget "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=novohit&show_icons=true&include_all_commits=true" -O cache-images/novohit_stats.svg
 
       # 下载 novohit 的 top languages 图片
       - name: Download novohit's top languages
-        run: wget "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=novohit&theme=radical&exclude=vue" -O cache-images/novohit_top_langs.svg
+        run: wget "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=novohit&exclude=vue" -O cache-images/novohit_top_langs.svg
 
       # 将下载的图片推送到指定的分支
       # push the content of <build_dir> to a branch
