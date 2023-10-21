@@ -4,9 +4,7 @@
 
 ### Hi there 👋
 
-a student from Guangdong, China. 
-
-- 📖 Interested in full stack, but more on backend (Java, Go) and distributed system recently.
+- 📖 Interested in full stack, but more on backend (Java, Go) and distributed system.
 
 - 📝 My blog: [novohit.top](https://novohit.top)
 
