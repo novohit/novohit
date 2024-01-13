@@ -45,7 +45,7 @@ jobs:
       # 下载 novohit 的 GitHub stats 图片
       # api 变更 https://github.com/anuraghazra/github-readme-stats/issues/2388
       - name: Download novohit's GitHub stats
-        run: wget "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=novohit&show_icons=true&include_all_commits=true" -O cache-images/novohit_stats.svg
+        run: wget "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=novohit&show_icons=true&include_all_commits=true&rank_icon=github" -O cache-images/novohit_stats.svg
 
       # 下载 novohit 的 top languages 图片
       - name: Download novohit's top languages
